@@ -1,0 +1,29 @@
+
+footer div{
+    width: 100%;
+    float:left;
+    background-color: rgb(218, 175, 175);
+}
+footer ul {
+    list-style: none;
+}
+footer .ho-tro{
+    width: 33.3%;
+}
+footer .ho-tro a{
+    color:black;
+    text-decoration: none;
+}
+footer .ban-quyen{
+    color:black;
+    width: 43%;
+    height: 182px;
+}
+footer .lien-ket{
+    width: 23.7%;
+    height: 182px;
+}
+footer .lien-ket a{
+    color:black;
+    text-decoration: none;
+}

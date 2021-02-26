@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>CSS</title>
+        <meta charset="utf-8">
+        <link href="index.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">
+        <link href="dangnhap.css" rel="stylesheet">
+        <link href="dangky.css" rel="stylesheet">
+        <link href="footer.css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="container">
+            <header>
+                <div class="left-bottom">
+                    <img src="images/logo hair's story.png" style="width: 250px; height: 150px;">
+                </div>
+                <div class="right-top">
+                    <a href="dangnhap.html">ĐĂNG NHẬP | </a>
+                    <a href="dangky.html">ĐĂNG KÝ</a>
+                </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="../index.html">GIỚI THIỆU</a>
+                    <ul>
+                        <li><a href="#">THÀNH LẬP</a></li>
+                        <li><a href="#">SỨ MỆNH</a></li>
+                    </ul>
+                </li>
+                <li><a href="xuhuong.html">XU HƯỚNG THỊNH HÀNH</a></li>
+                <li><a href="index.html">KHUYẾN MÃI</a></li>
+                <li><a href="index.html">TRA CỨU ĐƠN HÀNG</a>
+                    <ul>
+                        <li><a href="#">ĐẶT HÀNG</a></li>
+                        <li><a href="#">XÁC NHẬN</a></li>
+                        <li><a href="#">ĐANG GIAO</a></li>
+                        <li><a href="#">ĐÃ NHẬN HÀNG</a></li>
+                        <li><a href="#">ĐÁNH GIÁ</a></li>
+                    </ul>
+                </li>
+                <li><a href="bando.html">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+        <div class="form-group">
+            <h2>ĐĂNG KÝ THÀNH VIÊN </h2>
+            <from action="#" method="post" enctype="multipart/form-data">
+                <div>Họ và tên:</div>
+                <input class="form-control" type="text" name="id" ><br/>
+
+                <br><div>Giới tính:</div>
+                <input class="form-control" type="radio" name="gt" value="Nam"> Nam
+                <input class="form-control" type="radio" name="gt" value="Nữ"> Nữ
+                <input class="form-control" type="radio" name="gt" value="Khác"> Khác <br/>
+
+                <br><div>Hình ảnh:</div>
+                <button class="button" type="submit">Choose file</button> No file chosen </br>
+
+                <br><div>Quốc tịch:</div>
+                <select name="qt" > <br/>
+                    <option value="Việt Nam" readonly>Việt Nam</option>
+                    <option value="Thái Lan" readonly>ThaiLand</option>
+                    <option value="Hàn Quốc" readonly>Korea</option>
+                    <option value="Nhật Bàn" readonly>Japan</option></select>
+                </br>
+
+                <br><div>Ghi chú:</div>
+                <textarea name="noidung" id="nd" cols="50" rows="5"></textarea>
+                <hr>
+
+                <button class="button" type="submit">Đăng ký</button>
+                <button class="button" type="submit">Nhập lại</button></br>
+            </from>
+        </div>
+        <footer>
+            <div>
+                <div class="ho-tro">
+                 <ul>
+                     <li><a href="#">Hướng dẫn mua hàng</a></li>
+                     <li><a href="#">Giải đáp thắc mắc</a></li>
+                     <li><a href="#">Chính sách đổi trả</a></li>
+                 </ul>
+                 </div>
+                 <div class="ban-quyen">
+                 © Bản quyền thuộc về Hair’s Story-chuỗi cửa hàng phụ liệu tóc
+                 </div>
+                 <div class="lien-ket">
+                 <ul>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">Intagram</a></li>
+                 </ul>
+                 </div>
+             </div>
+        </footer>
+    </body>
+</html>

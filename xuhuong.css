@@ -1,0 +1,11 @@
+.xuhuong h2{
+    text-decoration: none;
+    color:black
+}
+.xuhuong{
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    margin: 8px;
+    padding: 5px;
+    position: relative;
+}

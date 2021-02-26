@@ -1,0 +1,14 @@
+
+.bantin{
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    margin: 8px;
+    padding: 5px;
+    position: relative;
+}
+.bantin>h2{
+    text-align: center;
+}
+.fb-like{
+    text-align: right;
+}
